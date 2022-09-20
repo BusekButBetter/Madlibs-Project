@@ -1,0 +1,83 @@
+import java.util.Scanner;
+
+public class Madlib
+{
+    public static void main(String[] args)
+    {
+        //kamden was here 9/19/2022
+        //hi mr smith!
+        
+        String name;
+        String date;
+        String adjective1;
+        String adjective2;
+        String nounPlr1;
+        String adverb1;
+        String verb1;
+        String noun1;
+        String verb2;
+        String nounPlr2;
+        String nounPlr3;
+        String adverb2;
+        String place;
+    
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Whats your name? -> ");
+        name = input.nextLine();
+        
+        System.out.print("whats todays date? -> ");
+        date = input.nextLine();
+        
+        System.out.print("Please enter an adjective here -> ");
+        adjective1 = input.nextLine();
+    
+        System.out.print("Please enter another adjective here -> ");
+        adjective2 = input.nextLine();
+        
+        System.out.print("Please enter a plural noun here -> ");
+        nounPlr1 = input.nextLine();
+        
+        System.out.print("Please enter a adverb here -> ");
+        adverb1 = input.nextLine();
+        
+        System.out.print("Please enter a verb here -> ");
+        verb1 = input.nextLine();
+        
+        System.out.print("Please enter a noun here -> ");
+        noun1 = input.nextLine();
+        
+        System.out.print("Please enter another verb here -> ");
+        verb2 = input.nextLine();
+        
+        System.out.print("Please enter another plural noun here -> ");
+        nounPlr2 = input.nextLine();
+        
+        System.out.print("Please enter another plural noun again here -> ");
+        nounPlr3 = input.nextLine();
+        
+        System.out.print("Please enter another adverb here -> ");
+        adverb2 = input.nextLine();
+        
+        System.out.print("Please enter a place here -> ");
+        place = input.nextLine();
+        
+        
+        System.out.println("Hello! heres your story "+name);
+        System.out.println("This story was made on "+date);
+        System.out.print("One "+adjective1);
+        System.out.print(" summer morrning, the zebras woke up to see ");
+        System.out.print("three "+adjective2);
+        System.out.print(" ");
+        System.out.print(nounPlr1+". They were unlocking the door to their pen! ");
+        System.out.print("The zebras "+adverb1);
+        System.out.print(" ran through the open door, ");
+        System.out.print("then "+verb1);
+        System.out.print(" behind a nearby "+noun1);
+        System.out.println(".");
+        System.out.print("The zebras qucikly "+verb2);
+        System.out.print(" the zoo restraunt, where they ordered ");
+        System.out.print(nounPlr2+" and "+nounPlr3);
+        System.out.print(" They "+adverb2);
+        System.out.println(" took there their treats and went to "+place);
+        System.out.print("The End");
